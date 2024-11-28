@@ -26,7 +26,7 @@
  
 <br>
 以下回答例
-![スクリーンショット 2024-11-28 14 32 02](https://github.com/user-attachments/assets/c3722572-6317-45f4-94b7-274e5e681c43)
+
 
 
 ## 2. bedrock & opensearch serviceによるRAGシステムの構築
