@@ -3,6 +3,7 @@
 
 ## RAGシステム内容
 * 日銀の「経済・物価情勢の展望」レポートをベクトルストアに保存し、LLMへの質問時に質問と関連する内容を検索してプロンプトに追加する。
+ * 該当レポートは、data/jpbank_economy_report.pdf 
 * インターフェースは、streamlitを使用
 * 実行環境は、AWS Sagemaker Studio コードエディタを使用
 * "bedrock knowledge base"と"bedrock & opensearch"それぞれでRAGシステムを作り、作成方法を比較する
