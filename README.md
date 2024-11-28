@@ -7,6 +7,8 @@
 * インターフェースは、streamlitを使用
 * 実行環境は、AWS Sagemaker Studio コードエディタを使用
 * "bedrock knowledge base"と"bedrock & opensearch"それぞれでRAGシステムを作り、作成方法を比較する
+* ベクトル化は、"Amazon Titan Text Embeddings"モデルを使用
+* 回答は、"anthropic.claude-3-5-sonnet"モデルを使用
 
 ## 1. bedrock knowledge baseによるRAGシステムの構築
 * 対象ディレクトリ＆ファイル：
@@ -21,4 +23,7 @@
   * デフォルトでは、opensearch serverlessを使うが、無料枠もなく、最低料金も高いのでコストかかる
     * → 手動でDBを選択し、pineconeの無料枠を使うなどした方がいい
   * デフォルトで作ると、日本語アナライザーが未設定なので、後で手動で設定が必要
+ 
+<br>
+以下回答例
 
