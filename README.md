@@ -25,9 +25,12 @@
   * デフォルトで作ると、日本語アナライザーが未設定なので、後で手動で設定が必要
  
 <br>
-以下回答例
+以下回答例-------------
 
 ![knowledge_base](https://github.com/user-attachments/assets/e7865487-7bd4-4764-b86c-f209d0f25834)
 
+---------------------
+
+<br>
 
 ## 2. bedrock & opensearch serviceによるRAGシステムの構築
