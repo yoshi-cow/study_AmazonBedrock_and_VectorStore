@@ -2,11 +2,11 @@
 生成AIシステム構築用にbedrock及びベクトルストアの構築方法を学ぶ
 
 ## RAGシステム内容
+* "bedrock knowledge base"と"bedrock & opensearch"それぞれでRAGシステムを作り、作成方法を比較する
 * 日銀の「経済・物価情勢の展望」レポートをベクトルストアに保存し、LLMへの質問時に質問と関連する内容を検索してプロンプトに追加する。
  * 該当レポートは、data/jpbank_economy_report.pdf 
 * インターフェースは、streamlitを使用
 * 実行環境は、AWS Sagemaker Studio コードエディタを使用
-* "bedrock knowledge base"と"bedrock & opensearch"それぞれでRAGシステムを作り、作成方法を比較する
 * ベクトル化は、"Amazon Titan Text Embeddings"モデルを使用
 * 回答は、"anthropic.claude-3-5-sonnet"モデルを使用
 
