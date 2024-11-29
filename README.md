@@ -26,7 +26,7 @@
   * デフォルトで作ると、日本語アナライザーが未設定なので、後で手動で設定が必要
  
 <br>
-以下回答例-------------
+以下knowledge base版回答例-------------
 
 ![knowledge_base](https://github.com/user-attachments/assets/e7865487-7bd4-4764-b86c-f209d0f25834)
 
@@ -35,3 +35,15 @@
 <br>
 
 ## 2. bedrock & opensearch serviceによるRAGシステムの構築
+* 上記knowledge baseにて作成したRAGをbedrock、opensearch及びlangchainで実装したもの
+* 対象ディレクトリ＆ファイル：
+ * 2_opensearch_bedrock/
+  * register_data_to_vectordb.ipynb - jpbank_economy_report.pdfの内容をチャンク後ベクトル化してopensearchに登録するためのnotebook
+  * QA_system.py - 入力した質問文から関連文書をopensearchから取得後、LLMにコンテキストとして渡して、回答を得るRAG本体（interfaceは、streamlit使用）
+* knowledge baseとの比較：
+  * 登録から検索まで一つ一つコードが必要なので、knowledge baseの方が楽に感じた。
+  * 関連文章が段落ごとにまとまっていて、チャンク時に試行錯誤がいらない文書にはknowledge baseが効率的と思われる。
+
+<br>
+以下回答例-------------
+
