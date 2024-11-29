@@ -13,8 +13,8 @@
 ## 1. bedrock knowledge baseによるRAGシステムの構築
 * 対象ディレクトリ＆ファイル：
   * knowledge_base/
-    * knowledge_base_rag.py - kowledge baseに接続して、検索後、プロンプト作成して回答を返すプログラム。
-    * set_up_of_knowledge_base.mk - knowledge baseの設定手順
+     * knowledge_base_rag.py - kowledge baseに接続して、検索後、プロンプト作成して回答を返すプログラム。
+     * set_up_of_knowledge_base.mk - knowledge baseの設定手順
  
 * knowledge base利用により以下の利点がある
   1. S3にRAG用の学習ファイルを入れておけば、knowledge base作成時に、ノーコードでファイルを読み込み、チャンクしてベクトルストアを作成してくれる
