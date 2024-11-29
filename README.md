@@ -47,3 +47,6 @@
 <br>
 以下回答例-------------
 
+![opensearch](https://github.com/user-attachments/assets/dd76251e-8b12-4be2-b950-ec0f90d63788)
+
+---------------------
